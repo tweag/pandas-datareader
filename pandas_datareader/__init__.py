@@ -1,7 +1,6 @@
 import os
 import sys
 
-from ._version import __version__
 from .data import (
     DataReader,
     Options,
@@ -32,6 +31,8 @@ from .data import (
 )
 
 PKG = os.path.dirname(__file__)
+
+__version__ = "1.0.0"
 
 __all__ = [
     "__version__",

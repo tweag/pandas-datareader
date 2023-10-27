@@ -94,3 +94,17 @@ exclude = """
   pandas_datareader/_version.py
 )
 """
+
+[tool.poetry]
+name = "pandas-datareader"
+version = "0.1.0"
+description = "Up to date remote data access for pandas"
+readme = "README.md"
+authors = ["The PyData dev team"]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pandas = ">=2.1.0, <3.0.0"
+lxml = ">=4.9.0, <5.0.0"
+requests = ">=2.19.0, <3.0.0"
+packaging = ">=23.0, <24.0"
